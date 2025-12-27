@@ -13,8 +13,6 @@ fun includeSubs(base: String, path: String = base, vararg subs: String) {
     }
 }
 
-listOf("kommander").forEach { includeBuild("../$it") }
-
 rootProject.name = "kotlinx-interoperable"
 
 // submodules
